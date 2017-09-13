@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, arial, sans-serif;
+}
+
+main {
+  width: 70%;
+  margin: 0px auto;
+}
+
+header.title {
+  text-align: center;
+  background-color: #333333;
+  color: white;
+  height: 75px;
+  display: block;
+  padding-top: 1px;
+}
