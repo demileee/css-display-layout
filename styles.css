@@ -108,3 +108,21 @@ footer p {
   padding: 15px;
   font-size: 12px;
 }
+
+/* Grid Media Queries */
+
+@media(max-width: 650px) {
+  article.piece{
+    width: 49.5%;
+  }
+  
+  article.piece img{
+    width: 100%;
+  }
+}
+
+@media(max-width: 450px) {
+  article.piece, article.piece img{
+    width: 100%;
+  }
+}
