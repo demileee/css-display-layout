@@ -4,7 +4,7 @@
 }
 
 main {
-  width: 909px;
+  max-width: 909px;
   margin: 0px auto;
 }
 
@@ -72,9 +72,21 @@ header.about h1 {
   border-bottom: 2px solid yellow;
 }
 
+section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
 article.piece {
-  display: inline-block;
   margin-top: 20px;
+  width: 32.88%;
+  display: inline-block;
+}
+
+article.piece img {
+  max-width: 100%;
 }
 
 .options {
